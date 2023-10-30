@@ -1,0 +1,19 @@
+.app-main {
+  display: flex;
+  flex-grow: 1;
+  border-radius: 1rem;
+  background: #{$coconut};
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, .10);
+
+  &__column {
+    width: 100%;
+    padding: 3rem 3rem 3rem 2rem;
+
+    &:first-child {
+      width: 29rem;
+      min-width: 29rem;
+      border-right: 1px solid #{$gainsboro};
+    }
+
+  }
+}
